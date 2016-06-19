@@ -1,0 +1,151 @@
+{
+    "author": "zszen@hotmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "zweather",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "ZSimpleWeather",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "DATA_TEMPERATURE",
+            "DATA_CONDITIONS",
+            "DATA_CITY",
+            "DATA_ICON",
+            "DATA_WEAHTERID",
+            "TYPE",
+            "CONFIG_CITYNAME",
+            "CONFIG_FREQUENCE",
+            "CONFIG_SMART",
+            "CONFIG_WEATHERSERVICE",
+            "DATA_SERVICE"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/empty",
+                    "name": "IMAGE_EMPTY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/loading",
+                    "name": "IMAGE_LOADING",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/weather_rain_night",
+                    "name": "IAMGE_WEATHER_RAIN_NIGHT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/weather_fog",
+                    "name": "IMAGE_WEATHER_FOG",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/weather_cloudy_light",
+                    "name": "IMAGE_WEATHER_CLOUDY_LIGHT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/weather_cloudy_heavy",
+                    "name": "IMAGE_WEATHER_CLOUDY_HEAVY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/weather_thunder",
+                    "name": "IMAGE_WEATHER_THUNDER",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/weather_sunshine",
+                    "name": "IMAGE_WEATHER_SUNSHINE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/weather_rain_sunshine",
+                    "name": "IMAGE_WEATHER_RAIN_SUNSHINE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/weather_cloudy_sunshine",
+                    "name": "IMAGE_WEATHER_CLOUDY_SUNSHINE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/weather_snow_light",
+                    "name": "IMAGE_WEATHER_SNOW_LIGHT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/weather_snow_heavy",
+                    "name": "IMAGE_WEATHER_SNOW_HEAVY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/weather_rain_thunder",
+                    "name": "IMAGE_WEATHER_RAIN_THUNDER",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/weather_rain_light",
+                    "name": "IMAGE_WEATHER_RAIN_LIGHT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/weather_rain_heavy",
+                    "name": "IAMGE_WEATHER_RAIN_HEAVY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/weather_night",
+                    "name": "IMAGE_WEATHER_NIGHT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/weather_cloudy_night",
+                    "name": "IMAGE_WEATHER_CLOUDY_NIGHT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/icon",
+                    "menuIcon": true,
+                    "name": "IMAGE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "282d6f50-5961-41f9-aa78-b7cc123a6fad",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "3.3.0"
+}
